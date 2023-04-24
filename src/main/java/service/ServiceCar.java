@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface ServiceCar {
 
-    List<Car> findCars(List<Car> list, int count);
+    List<Car> findCars(int count);
 }
